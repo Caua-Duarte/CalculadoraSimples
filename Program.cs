@@ -7,20 +7,20 @@ namespace Exercicio3
         static void Main(string[] args)
         {
             Soma so = new Soma();
-            Subtracao su = new subtracao();
+            Subtracao su = new Subtracao();
             Divisao d = new Divisao();
             Multiplicacao m = new Multiplicacao();
 
             int  resp  =  100 ;
-            while ( resp  ! =  0 )
+            while ( resp != 0 )
             {
-                resp  =  Menu ();
+                resp  =  Menu ();   
                 if ( resp  ==  1 )
                 {
-                    Console.WriteLine("Qual o primeiro número?")
-                    this.x = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Qual o segundo número?")
-                    this.y = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o primeiro número?");
+                    int X = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o segundo número?");
+                    int Y = Convert.ToInt32(Console.ReadLine());
 
                     so.EfetuarOperacao();
                     su.EfetuarOperacao();
@@ -29,42 +29,41 @@ namespace Exercicio3
                 }
                 if( resp == 2)
                 {
-                    Console.WriteLine("Qual o primeiro número?")
-                    this.x = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Qual o segundo número?")
-                    this.y = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o primeiro número?");
+                    int x = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o segundo número?");
+                    int y = Convert.ToInt32(Console.ReadLine());
 
                     so.EfetuarOperacao();
                 }
                 if (resp == 3)
                 {
-                    Console.WriteLine("Qual o primeiro número?")
-                    this.x = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Qual o segundo número?")
-                    this.y = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o primeiro número?");
+                    int x = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o segundo número?");
+                    int y = Convert.ToInt32(Console.ReadLine());
 
                     su.EfetuarOperacao();
                 }
                 if(resp == 4)
                 {
-                    Console.WriteLine("Qual o primeiro número?")
-                    this.x = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Qual o segundo número?")
-                    this.y = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o primeiro número?");
+                    int x = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o segundo número?");
+                    int y = Convert.ToInt32(Console.ReadLine());
 
                     d.EfetuarOperacao();
                 }
                 if (resp == 5)
                 {
-                    Console.WriteLine("Qual o primeiro número?")
-                    this.x = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Qual o segundo número?")
-                    this.y = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o primeiro número?");
+                    int x = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Qual o segundo número?");
+                    int y = Convert.ToInt32(Console.ReadLine());
 
                     m.EfetuarOperacao();
                 }
         }
-        static int Menu()
 
         static int Menu()
         {
@@ -84,8 +83,9 @@ namespace Exercicio3
             Console.WriteLine ( " Faça sua escolha: " );
             Console.Write ( "  " );
 
-            int  resp  =  Converter . ToInt32 ( Console . ReadLine ());
+            int  resp  =  Convert.ToInt32( Console.ReadLine ());
             return  resp ;
         }
     }
+}
 }

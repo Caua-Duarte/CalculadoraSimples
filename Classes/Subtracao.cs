@@ -13,8 +13,8 @@ namespace Exercicio3
         
         public override void EfetuarOperacao()
         {
-            this.sub = x - y;
-            Console.WriteLine("O resultado da subtração é" + sub);
+            this.sub = X - Y;
+            Console.WriteLine("O resultado da subtração é: " + sub);
         }
     }
 }

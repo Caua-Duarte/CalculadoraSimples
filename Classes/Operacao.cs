@@ -6,11 +6,6 @@ namespace Exercicio3
     {
         public Operacao()
         {
-            this.X = 0;
-            this.Y = 0;
-        }
-        public Operacao(int x, int y)
-        {
             this.X = x;
             this.Y = y;
         }
@@ -29,6 +24,7 @@ namespace Exercicio3
             set { y = value; }
         }
         
-        public abstract void EfetuarOperacao()
+        public abstract void EfetuarOperacao();
+        
     }
 }

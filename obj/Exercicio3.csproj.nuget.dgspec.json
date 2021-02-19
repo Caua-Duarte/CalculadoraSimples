@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\GFT\\Exercicio3\\Exercicio3.csproj": {}
+    "C:\\WorkSpace\\GFT\\Exercicio3.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\GFT\\Exercicio3\\Exercicio3.csproj": {
+    "C:\\WorkSpace\\GFT\\Exercicio3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\GFT\\Exercicio3\\Exercicio3.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\GFT\\Exercicio3.csproj",
         "projectName": "Exercicio3",
-        "projectPath": "C:\\WorkSpace\\GFT\\Exercicio3\\Exercicio3.csproj",
-        "packagesPath": "C:\\Users\\anaed\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\GFT\\Exercicio3\\obj\\",
+        "projectPath": "C:\\WorkSpace\\GFT\\Exercicio3.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpace\\GFT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\anaed\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

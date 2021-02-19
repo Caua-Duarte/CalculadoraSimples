@@ -13,8 +13,8 @@ namespace Exercicio3
         
         public override void EfetuarOperacao()
         {
-            this.div = x / y;
-            Console.WriteLine("O resultado da divisão é" + div);
+            this.div = X / Y;
+            Console.WriteLine("O resultado da divisão é: " + div);
         }
     }
 }

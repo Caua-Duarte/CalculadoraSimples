@@ -2,7 +2,7 @@ using System;
 
 namespace Exercicio3
 {
-    public class Soma:Operacao
+    public class Multiplicacao:Operacao
     {
         private int mult;
         public int Mult
@@ -13,8 +13,8 @@ namespace Exercicio3
         
         public override void EfetuarOperacao()
         {
-            this.mult = x * y;
-            Console.WriteLine("O resultado da multiplicação é" + mult);
+            this.mult = X * Y;
+            Console.WriteLine("O resultado da multiplicação é: " + mult);
         }
     }
 }
