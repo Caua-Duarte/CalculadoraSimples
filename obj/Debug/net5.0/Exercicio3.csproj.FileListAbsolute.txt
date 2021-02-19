@@ -1,0 +1,5 @@
+C:\WorkSpace\GFT\Exercicio3\obj\Debug\net5.0\Exercicio3.csprojAssemblyReference.cache
+C:\WorkSpace\GFT\Exercicio3\obj\Debug\net5.0\Exercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\GFT\Exercicio3\obj\Debug\net5.0\Exercicio3.AssemblyInfoInputs.cache
+C:\WorkSpace\GFT\Exercicio3\obj\Debug\net5.0\Exercicio3.AssemblyInfo.cs
+C:\WorkSpace\GFT\Exercicio3\obj\Debug\net5.0\Exercicio3.csproj.CoreCompileInputs.cache
